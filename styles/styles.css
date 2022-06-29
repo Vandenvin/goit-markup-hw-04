@@ -65,12 +65,23 @@ body {
   background: var(--background-primary-color);
   color: var(--text-primary-black-color);
   font-family: 'Roboto', sans-serif;
+
+  padding-top: 80px;
 }
 
 /* header */
 .page-header {
   border-bottom: 1px solid var(--border-header-line);
+
+  /* фиксируем header */
+  position: fixed;
+  width: 100%;
+  min-height: 80px;
+  top: 0;
+  left: 0;
+  background-color: var(--background-primary-color);
 }
+
 .header-nav {
   display: flex;
   align-items: center;
